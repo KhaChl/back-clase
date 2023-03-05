@@ -13,6 +13,14 @@ const userSchema = Schema({
     password:{
         type: String,
         required: true,
+    },
+    country: {
+        type: String,
+        default: 'N/A'
+    },
+    status:{
+        type: Boolean,
+        default: true
     }
 });
 
